@@ -28,3 +28,29 @@ This project focuses on detecting American Sign Language (ASL) gestures using ma
 1. Clone the repository:
    ```bash
    git clone https://github.com/pritesh-sh21/MIniProject2.git
+
+2. Navigate to the project directory:
+    ```bash
+   cd SignLanguage_AMSS
+
+3. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+## How to Run
+1. Run the data collection script:
+   ```bash
+   python collecting_data.py
+2. Train the model:
+    ```bash
+    python model_train.py
+3. Test the model:
+   ```bash
+   python model_test.py
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
+This version includes all instructions and formatting properly laid out for your README file.
